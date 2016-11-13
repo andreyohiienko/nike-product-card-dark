@@ -1,0 +1,140 @@
+body {
+	height: 100vh;
+	background: url(../images/main-bg.png) no-repeat center center;
+	background-size: cover;
+	font-family: 'Museo Sans 100', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #E1E1E1;
+}
+.ba-container {
+	width: 690px;
+	height: 390px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #152335;
+	border-radius: 10px;
+}
+.ba-header {
+	padding-top: 24px;
+}
+.ba-logo {
+	margin-left: 20px;
+}
+.ba-product__images {
+	width: 65%;
+	float: left;
+}
+.ba-image {
+	margin-top: 65px;
+	margin-left: 36px;
+	margin-bottom: 63px;
+}
+.ba-slider {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.ba-slider__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 3px;
+}
+.ba-slider__item:hover {
+	background-color: #293550;
+	border-radius: 50%;
+	border: 2px solid #8D9299;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+.ba-slider__item-1--active {
+	background-color: #293550;
+	border-radius: 50%;
+	border: 2px solid #8D9299;
+	width: 15px;
+	height: 15px;
+}
+.ba-slider__item-2 {
+	background-color: #FFF;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+.ba-slider__item-3 {
+	background-color: #F34B42;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+.ba-slider__item-4 {
+	background-color: #24E7EE;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+.ba-product__info {
+	width: 35%;
+	float: left;
+}
+.ba-product__title {
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 1.1em;
+	margin: 0;
+	margin-top: 20px;
+	width: 90%;
+}
+.ba-product__sub-title {
+	line-height: 1.9em;
+	margin-top: 6px;
+}
+.ba-product__rating {
+	margin-top: 18px;
+}
+.ba-product__size-qti {
+	margin-top: 25px;
+}
+.ba-size,
+.ba-qty {
+	background-color: transparent;
+	padding-left: 8px;
+	font-family: 'Museo Sans 100', sans-serif;
+	color: #E1E1E1;
+	letter-spacing: 0.020em;
+	outline: none;
+	width: 69px;
+	height: 32px;
+}
+.ba-size:hover,
+.ba-qty:hover {
+	cursor: pointer;
+	background-color: #2A3545;
+}
+.ba-btn {
+	margin-top: 27px;
+	font-family: 'Museo Sans 100', sans-serif;
+	color: #e1e1e1;
+	background-color: #2A3545;
+	border: 1px solid #e1e1e1;
+	padding: 0px 56px;
+	line-height: 38px;
+	outline: none;
+	letter-spacing: 0.020em;
+}
+.ba-btn:hover {
+	cursor: pointer;
+	background-color: #152335;
+}
+.ba-rating__star {
+	font-size: 16px;
+	letter-spacing: -0.2em;
+}
+.ba-rating__star--empty {
+	color: #FAC919;
+}
